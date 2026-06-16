@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-card {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 10px solid black;
+
+    text-align: center;
+}
+
+.title-card {
+    font-size: 64px;
+    background-color: maroon;
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.recipe-lists {
+    font-size: 32px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
