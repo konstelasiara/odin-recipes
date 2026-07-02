@@ -3,3 +3,54 @@
     padding: 0;
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: #4a3728;
+}
+
+a::after {
+    color: #4a3728;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #fdf6ed;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #4a3728;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.recipe-card {
+    background-color: #ffffff;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 35px;
+    border: 3px solid #dd9b67;
+    border-radius: 12px;
+}
+
+.title-card {
+    color: #b85c19;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+}
+
+.recipe-lists li {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.recipe-lists a {
+    font-weight: bold;
+}
+
+.recipe-lists a:hover {
+    text-decoration: underline;
+}
